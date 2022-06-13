@@ -1,0 +1,96 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "sk-idp-example",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "package": "svelte-kit package",
+        "preview": "svelte-kit preview",
+        "prepare": "svelte-kit sync"
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "svelte": "^3.44.0"
+      },
+      "type": "module"
+    },
+    "prefix": "/home/josh/Playground/sk-idp-example"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/josh/.pnpm-store/v3",
+    "virtualStoreDir": "/home/josh/Playground/sk-idp-example/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/josh/Playground/sk-idp-example",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "6.14.5",
+    "latestVersion": "7.2.1"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.48.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.44.0"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.48.0",
+    "requester": "/home/josh/Playground/sk-idp-example",
+    "status": "resolved"
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.48.0",
+    "requester": "/home/josh/Playground/sk-idp-example",
+    "status": "found_in_store"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.50",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/adapter-auto",
+      "rawSpec": "next"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.50",
+    "requester": "/home/josh/Playground/sk-idp-example",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.50",
+    "requester": "/home/josh/Playground/sk-idp-example",
+    "status": "found_in_store"
+  },
+  "11 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.350: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v16.4.0\",\"pnpm\":\"6.14.5\"})",
+    "prefix": "/home/josh/Playground/sk-idp-example"
+  },
+  "12 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.350",
+    "wanted": {
+      "node": ">=16.7"
+    },
+    "current": {
+      "node": "v16.4.0",
+      "pnpm": "6.14.5"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.350: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v16.4.0\",\"pnpm\":\"6.14.5\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.350: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v16.4.0\",\"pnpm\":\"6.14.5\"})\n    at Object.checkEngine [as default] (/home/josh/.asdf/installs/nodejs/16.4.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:35258:16)\n    at checkPackage (/home/josh/.asdf/installs/nodejs/16.4.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:35402:99)\n    at Object.packageIsInstallable [as default] (/home/josh/.asdf/installs/nodejs/16.4.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:35372:20)\n    at resolveAndFetch (/home/josh/.asdf/installs/nodejs/16.4.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:71109:112)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async resolveDependency (/home/josh/.asdf/installs/nodejs/16.4.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:110431:23)\n    at async resolveDependenciesOfDependency (/home/josh/.asdf/installs/nodejs/16.4.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:110266:39)\n    at async Promise.all (index 1)\n    at async Object.resolveDependencies [as default] (/home/josh/.asdf/installs/nodejs/16.4.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:110236:29)\n    at async /home/josh/.asdf/installs/nodejs/16.4.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.14.5/node_modules/pnpm/dist/pnpm.cjs:110761:47"
+    }
+  }
+}
