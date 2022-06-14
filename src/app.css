@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  color: #333;
+}
+.container {
+  width: 600px;
+}
+
+h2 {
+  color: #444;
+  font-weight: 400;
+}
+header {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  gap: 0.5rem;
+}
+header .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+pre {
+  background: #e1e1e1;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
