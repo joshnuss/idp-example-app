@@ -95,8 +95,11 @@ if (typeof(window) != 'undefined') {
 
   if (accessToken) {
     data.load(accessToken, refreshToken)
-    auth.set(data)
+  } else {
+    data.loading = false
   }
+
+  auth.set(data)
 }
 
 export default auth

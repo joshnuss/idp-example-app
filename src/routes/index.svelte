@@ -8,7 +8,7 @@
   {#if $auth.user}
     <p>Welcome <b>{$auth.name}</b>! You're on the <b>{$auth.product}</b> plan.</p>
   {:else}
-    Non-member
+    Good day, would you like to <a href="https://id.app.local:3002/signup">Signup</a>?
   {/if}
 {/if}
 
