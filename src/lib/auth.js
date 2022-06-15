@@ -30,10 +30,13 @@ const data = {
 
     return this.user.email
   },
-  get product() {
+  get audience() {
     if (!this.accessToken) return null
 
     return this.user.aud
+  },
+  get product() {
+    return this.audience
   },
   get paymentStatus() {
     if (!this.accessToken) return null
